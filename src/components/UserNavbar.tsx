@@ -1,6 +1,7 @@
-import React from 'react'
+import Link from 'next/link'
 
 export default function UserNavbar() {
+
     return (
         <>
             <header className="glass-nav fixed top-0 w-full z-50 px-6 py-4 flex items-center justify-between shadow-sm">
@@ -18,30 +19,30 @@ export default function UserNavbar() {
                     </div>
                 </div>
                 <nav className="hidden lg:flex items-center space-x-12 text-sm font-bold uppercase tracking-widest text-gray-600">
-                    <a
+                    <Link
                         className="text-black relative hover:text-yellow-600 transition-colors"
-                        href="#"
+                        href="/"
                     >
                         Overview
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         className="hover:text-black hover:text-yellow-600 transition-colors"
-                        href="#"
+                        href="/operator"
                     >
                         Operators
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         className="hover:text-black hover:text-yellow-600 transition-colors"
                         href="#"
                     >
                         World
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         className="hover:text-black hover:text-yellow-600 transition-colors"
                         href="#"
                     >
                         Media
-                    </a>
+                    </Link>
                 </nav>
                 <div className="flex items-center gap-4">
                     <button className="hidden md:flex btn-primary px-6 py-2 text-xs border border-black cut-corner">
