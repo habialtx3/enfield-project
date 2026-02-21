@@ -1,9 +1,9 @@
 import React from 'react'
 
 export default function page() {
+    
     return (
         <>
-            
             <section className="relative w-full h-screen min-h-[600px] overflow-hidden">
                 <div className="absolute inset-0 z-0">
                     <img

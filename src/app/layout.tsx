@@ -35,7 +35,7 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet" />
       </head>
       <body
-        className={`${chakraPetch.variable} font-body selection:bg-yellow-300 selection:text-black`}
+        className={`${chakraPetch.variable} font-body text selection:bg-yellow-300  selection:text-black`}
       >
         <UserNavbar />
         {children}
