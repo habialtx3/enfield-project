@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Chakra_Petch, Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import UserNavbar from "@/components/UserNavbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,7 +16,7 @@ const geistMono = Geist_Mono({
 const chakraPetch = Chakra_Petch({
   variable: "--font-chakra-petch",
   subsets: ['latin'],
-  weight : ["300","400","500","600","700"]
+  weight: ["300", "400", "500", "600", "700"]
 })
 
 export const metadata: Metadata = {
@@ -36,6 +37,7 @@ export default function RootLayout({
       <body
         className={`${chakraPetch.variable} font-body selection:bg-yellow-300 selection:text-black`}
       >
+        <UserNavbar />
         {children}
       </body>
     </html>
