@@ -57,11 +57,11 @@ export default function page() {
                     <img
                         alt="Gameplay Background"
                         className="w-full h-full object-cover object-center filter saturate-[0.8] brightness-[0.9]"
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_2xDPViU166-JDVxhTSf7MWeGftfZdSH0i9Oza2APJMp4xzuZzoUOyMwbSbX-phXNlxbaG6cUirZEqC3ZLQmTLIEy_VEkemClpz_pVvXb0AZFDifgdRqhM9AsNtpeoA2VFdO15bYr6RupYmawGWJZRG-56FUuoO-PvBg3cCDg69pNKD6Y7g4ZEhdUmiEUK1SCzvRPYQxcv2_T8qj00P-DDn6KcF4unPZTv8dm1Xn79o7umdTvs6iKYECLFlQGXayRcq-SUPR1D2dF"
+                        src="assets/home/main.jpg"
                     />
                 </div>
                 <div className="absolute inset-0 z-10 hero-overlay" />
-                <div className="absolute inset-0 z-10 bg-gradient-to-t from-gray-100 via-transparent to-transparent opacity-80" />
+                <div className="absolute inset-0 z-10 bg-gradient-to-t from-gray-100 via-transparent to-transparent opacity-30" />
                 <div className="relative z-20 h-full max-w-7xl mx-auto px-6 flex flex-col justify-center">
                     <div className="max-w-2xl mt-20">
                         <div className="flex items-center gap-2 mb-4">
@@ -134,13 +134,13 @@ export default function page() {
                         </span>
                     </div>
                 </div>
-                <div className="space-y-16 max-w-[1600px] mx-auto px-0 md:px-6">
+                <div className="space-y-16 max-w-7xl mx-auto px-0 md:px-6">
                     <div className="relative group w-full h-[400px] md:h-[500px] overflow-hidden border-y-2 border-yellow-500 md:border-none md:rounded-sm">
                         <div
                             className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
                             style={{
                                 backgroundImage:
-                                    'url("https://lh3.googleusercontent.com/aida-public/AB6AXuBRvt-KRopdZ3TeyHLiZK4GcJHjSLuDCTIziA6BVg9sqco2gM_8pFrpc4gYTnGNVEbhNVjjWsNoqQDpaZ941noHkgzZSc-nP7T3TME02lI69yLQeUCO4BQSnn8drHpJ6MZatvf5AWg2QtWoCeEs82d95uFKx-JcRI34j6jYKfZj5qOViHfKOcLkVdFo77pcAZxVv_IT5kyTTMYrC1zoGYi8hb9HpOlUWjEMG9PJz6Gja8PC-k2Eh69NPruIAIGZyHNDZKjZJqpES6ll")'
+                                    "url('assets/home/image_1.webp')"
                             }}
                         ></div>
                         <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors" />
@@ -167,7 +167,7 @@ export default function page() {
                             className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
                             style={{
                                 backgroundImage:
-                                    'url("https://lh3.googleusercontent.com/aida-public/AB6AXuDGTUfj76EH62i1lM47Hg4aeKbdRUatUTGlOoptiwfH7AfXzzCQNTxdpJT_KUCvBRT2FG05rCBYo4Lg2UcM_uDX-oAiiiA-pgybNDPwblC5Q3b2p64cQwJ71BTuKt24zRU9QV1Iz-RL4oMeOHQXpvO71Yi3xcqm8BT6uXd8tdGH1h9BdkYdkisnAK3b8SiSMlmBtEzA1X2CSDPpcC0kUbV927tfZm5Q6lF4-O6rbRVv7X8KesOEb8JQ0b48iqOHpyGbFbUHuOsLcZNb")'
+                                    "url('assets/home/image_2.webp')"
                             }}
                         ></div>
                         <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors" />
@@ -193,7 +193,7 @@ export default function page() {
                             className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
                             style={{
                                 backgroundImage:
-                                    'url("https://lh3.googleusercontent.com/aida-public/AB6AXuDVFPRt1SYJoDAaNQyKb_d0DHOtGkZBI03BcP6HVvlVuIOwdxq-6sTaZtMNo5qTmU2atSL3SqfFZbxNusNJx9m9W8AG7tDzRhlcqtkpRqp9JufgWAbDrfbXu65q4Fs_zmxeg8OH_smNUDOwwMq1MNAKl8EMRTveMSfk1uIe8zCwTuVXfpFNdbfpr_6uxIYbths3WI7hKJc5wf3tr-DHbpTdE-HUBYZVeefhitTYsro1EcBdaAhwV4JvXbfBaPtVWrhFt7ypcFmN1sWq")'
+                                "url('assets/home/image_3.jpeg')"
                             }}
                         ></div>
                         <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors" />
