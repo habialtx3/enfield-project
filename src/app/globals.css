@@ -39,16 +39,16 @@ body {
 
 .hazard-stripe {
   background: repeating-linear-gradient(45deg,
-      var(--construction-yellow),
-      var(--construction-yellow) 10px,
+      var(--color-construction-yellow),
+      var(--color-construction-yellow) 10px,
       #000 10px,
       #000 20px);
 }
 
 .hazard-stripe-vertical {
   background: repeating-linear-gradient(0deg,
-      var(--construction-yellow),
-      var(--construction-yellow) 4px,
+      var(--color-construction-yellow),
+      var(--color-construction-yellow) 4px,
       #000 4px,
       #000 8px);
 }
@@ -64,7 +64,7 @@ body {
 .glass-nav {
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(16px);
-  border-bottom: 2px solid var(--construction-yellow);
+  border-bottom: 2px solid var(--color-construction-yellow);
 }
 
 .hero-overlay {
@@ -88,13 +88,13 @@ body {
 
 .chip {
   background: rgba(31, 41, 55, 0.9);
-  color: var(--construction-yellow);
-  border: 1px solid var(--construction-yellow);
+  color: var(--color-construction-yellow);
+  border: 1px solid var(--color-construction-yellow);
   backdrop-filter: blur(4px);
 }
 
 .btn-primary {
-  background: var(--construction-yellow);
+  background: var(--color-construction-yellow);
   color: #000;
   font-weight: 700;
   text-transform: uppercase;
@@ -124,7 +124,7 @@ body {
 }
 
 .btn-primary:hover {
-  box-shadow: 0 0 15px var(--construction-yellow);
+  box-shadow: 0 0 15px var(--color-construction-yellow);
 }
 
 .cut-corner {
@@ -146,8 +146,8 @@ body {
   right: 0;
   width: 20px;
   height: 20px;
-  border-bottom: 2px solid var(--construction-yellow);
-  border-right: 2px solid var(--construction-yellow);
+  border-bottom: 2px solid var(--color-construction-yellow);
+  border-right: 2px solid var(--color-construction-yellow);
 }
 
 .tech-border::before {
@@ -157,6 +157,6 @@ body {
   left: 0;
   width: 20px;
   height: 20px;
-  border-top: 2px solid var(--construction-yellow);
-  border-left: 2px solid var(--construction-yellow);
+  border-top: 2px solid var(--color-construction-yellow);
+  border-left: 2px solid var(--color-construction-yellow);
 }
