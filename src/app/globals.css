@@ -11,6 +11,10 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --color-light-gray: #f3f4f6;
+}
+
+@theme {
+  --color-light-gray: #f3f4f6;
   --color-construction-yellow: #facc15;
   --color-industrial-dark: #1f2937;
   --color-frosted-glass: rgba(255, 255, 255, 0.65);

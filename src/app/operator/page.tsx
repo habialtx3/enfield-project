@@ -1,3 +1,4 @@
+import OperatorCard from '@/components/OperatorCard'
 import React from 'react'
 
 export default function page() {
@@ -144,7 +145,7 @@ export default function page() {
                         Grid View: Full
                     </button>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-20">
+                {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-20">
                     <div className="character-card-glass group relative overflow-hidden rounded-sm">
                         <div className="absolute top-0 right-0 w-8 h-8 z-20 opacity-0 group-hover:opacity-100 transition-opacity">
                             <div
@@ -409,6 +410,9 @@ export default function page() {
                             </div>
                         </div>
                     </div>
+                </div> */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-20">
+                    <OperatorCard />
                 </div>
             </main>
         </>
